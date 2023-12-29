@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* height: 100%; */
+}
+
+.hero-section {
+  /* position: relative; */
+  height: 100vh;
+  background: url(./images/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  color: #f1e4c3;
+}
+.text {
+  /* z-index: 1; */
+  /* position: absolute; */
+  /* top: 20%; */
+  /* left: 40%; */
+  /* display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  margin-top: 15em;
+}
+
+/* .overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; */
+
+.mer {
+  text-decoration: underline;
+  color: #e1c78f;
+}
+
+.text h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  /* color: #776b5d; */
+  color: #706233;
+}
+
+.text h2 {
+  margin-top: 0;
+  color: #e1c78f;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  /* z-index: 1; */
+  cursor: pointer;
+}
+
+.display-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.dp {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hello-text {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #706233;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.introduction {
+  width: 40%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+hr {
+  border: dotted 6px #706233;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+.my-skills {
+  margin-top: 50px;
+}
+
+.skill-image {
+  width: 100%;
+  height: 200px;
+  /* margin-bottom: 50em; */
+}
+
+.contact h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #d0aa3a;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-paragraph {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact p {
+  line-height: 2;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border: none;
+}
+
+.contact-btn {
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  background: #c5970e;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #e1bf5a;
+}
+
+.contact-btn a {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.footer-pgg {
+  background-color: #e1c78f;
+  padding: 50px 0 20px;
+  margin-top: 80px;
+}
+.footer-pg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  display: inline-block;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+  font-weight: 800;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+}
